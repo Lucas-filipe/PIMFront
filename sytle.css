@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	/*background-color: #ddd; */
+	background-image: url('https://conteudo.movidesk.com/wp-content/uploads/2016/10/44119-entenda-o-que-e-o-service-desk.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#wrap{
+	width: 100%;
+	height: auto;
+	/* background-color: #ddd; */
+	/*padding: 100px 0;*/
+}
+
+#wrap #login{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	/* background-color: #fff; */
+	background-color: rgba(0, 0 , 0 ,0.2);
+	padding: 20px;
+	border-radius: 5px;
+	display: block;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	-webkit-box-shadow: 6px 4px 15px -4px #000000; 
+	box-shadow: 6px 4px 15px -4px #000000;
+}
+
+#wrap #login #image{
+	width: 80px;
+	height: 80px;
+	padding: 0 0 20px 0;
+	background-color: transparent;
+	margin: 0 auto;
+	display: block;
+}
+
+#wrap #login #image img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+#wrap #login form label{
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fff;
+}
+
+#wrap #login form input{
+	font-family: 'Roboto Condensed', sans-serif;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	height: 40px;
+	margin: 5px 0;
+}
+
+#wrap #login form button{
+	border: 2px solid #0c77b5;
+	padding: 10px;
+	background-color: #0c77b5;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform:uppercase;
+	margin: 20px 0;
+	font-weight: bold;
+	border-radius: 5px;
+	float: right;
+	display: block;
+	-webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+#wrap #login form button:hover{
+	background-color: #fff;
+	color: #0c77b5;
+	cursor: pointer;
+	-webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
